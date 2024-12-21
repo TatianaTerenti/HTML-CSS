@@ -1,0 +1,8 @@
+div {
+    width: 7  00px;
+    border: 2px solid gray;
+}
+div p{
+    text-align: center;
+    color: blue;
+}
