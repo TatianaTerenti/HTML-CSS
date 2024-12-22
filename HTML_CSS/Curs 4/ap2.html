@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curs 4 ap2</title>
+    <style>
+        table tr td {
+            border: 1px solid black;
+            padding: 7px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Colspan & Rowspan</h1>
+
+    <table>
+        <tr>
+            <td>Nr.</td>
+            <td colspan="2">Nume Prenume</td>
+            <!--celula care indică Prenumele este ștearsă când se face colspan-->
+            <td>Email</td>
+        </tr>
+        <tr>
+            <td rowspan="2">1/2</td>
+            <td>Dumitru</td>
+            <td>Andrieș</td>
+            <td>exempl@gmail.com</td>
+        </tr>
+        <tr>
+            <!--celula care indică NR.2 este ștearsă când se face rowspan-->
+            <td>Loredana</td>
+            <td>Buzu</td>
+            <td>demo@gmail.com</td>
+        </tr>
+    </table>
+</body>
+</html>
